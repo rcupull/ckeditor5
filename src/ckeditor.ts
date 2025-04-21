@@ -28,6 +28,7 @@ import {
   ImageStyle,
   ImageToolbar,
   ImageUpload,
+  ImageResize,
 } from "@ckeditor/ckeditor5-image";
 import { Indent } from "@ckeditor/ckeditor5-indent";
 import { Link } from "@ckeditor/ckeditor5-link";
@@ -62,6 +63,7 @@ class Editor extends ClassicEditor {
     ImageStyle,
     ImageToolbar,
     ImageUpload,
+    ImageResize,
     Indent,
     Italic,
     Link,
